@@ -6,6 +6,7 @@
     padding: 0px;
 }
 .headrr ul a{
+    font-size: large;
     padding-top: 10px;
     padding-bottom: 10px;
     color: #f4f4f4; 
@@ -18,4 +19,30 @@
     font-family: 'PT Sans', sans-serif;
     line-height: 1.6;
     margin: 0px;
+}
+.container .guit-bg{
+    background: url('https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg') no-repeat center/cover;
+    height: 95vh;
+    color: #f4f4f4; 
+
+}
+.horizontal_center_align{
+    display: flex;
+    justify-content: center;
+}
+.container .guit-bg .my_tune{
+    padding-top: 24vh;
+    font-size: 4.5rem;
+    font-weight: bolder;
+}
+.container .guit-bg .your_music{
+    font-size: 2.2rem;
+    font-weight: bolder;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.container .guit-bg .mac{
+    font-size: 1.4rem;
+    text-align: center;
+    /* font-weight: bolder; */
 }
