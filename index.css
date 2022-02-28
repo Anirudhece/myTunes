@@ -24,7 +24,6 @@
     background: url('https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg') no-repeat center/cover;
     height: 95vh;
     color: #f4f4f4; 
-
 }
 .horizontal_center_align{
     display: flex;
@@ -44,5 +43,38 @@
 .container .guit-bg .mac{
     font-size: 1.4rem;
     text-align: center;
-    /* font-weight: bolder; */
+}
+.container .music_section{
+    background-color: #252529;
+    color: #fff;
+    line-height: 1.6;
+    font-weight: bolder;
+}
+.container .music_section #mus{
+    padding-top: 10px; ;
+    padding-bottom: 10px;
+    font-size: 2.3rem;
+}
+.container .music_section .f5-million{
+    font-size: 1.8rem;
+}
+
+.container .music_section .stream{
+    padding-bottom: 20px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.container .music_section .button a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #b90415;
+    background: #b90415;
+    padding: 16px;
+    font-weight: normal;
+}
+.container .music_section .bellow-button{
+    font-weight: normal;
 }
