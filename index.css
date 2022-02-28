@@ -78,7 +78,9 @@
 .container .music_section .bellow-button{
     font-weight: normal;
 }
-
+.container .bellow-guit{
+    padding-bottom: 32px;
+}
 .container .bellow-guit .the_movie{
     font-size: 2rem;
     color: #333;
@@ -101,5 +103,25 @@
     padding: 16px;
     font-weight: normal;
 }
+.container .chamakti-raat{
+    background: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg) no-repeat bottom/cover;
+    height: 90vh;
+    color: #fff;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: auto;
+}
+.container .chamakti-raat .write-up{
+}
 
 
+.container .chamakti-raat .write-up .world{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.container .chamakti-raat  .write-up .bellow-world{
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.6;
+
+}
