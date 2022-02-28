@@ -78,3 +78,28 @@
 .container .music_section .bellow-button{
     font-weight: normal;
 }
+
+.container .bellow-guit .the_movie{
+    font-size: 2rem;
+    color: #333;
+    line-height: 1.6;
+    font-weight: bolder;
+}
+
+.container .bellow-guit .with-over{
+    text-align: center;
+    font-size: 1.3rem;
+    color: #333;
+    padding-bottom:21px ;
+}
+
+.container .bellow-guit .blue_button a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #143f85;
+    background: #143f85;
+    padding: 16px;
+    font-weight: normal;
+}
+
+
