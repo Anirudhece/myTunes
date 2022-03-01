@@ -41,9 +41,11 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-.container .guit-bg .mac{
+.container .guit-bg .mac-parent .mac{
     font-size: 1.4rem;
     text-align: center;
+    width: 92%;
+
 }
 .container .music_section{
     background-color: #252529;
@@ -52,7 +54,7 @@
     font-weight: bolder;
 }
 .container .music_section #mus{
-    padding-top: 10px; ;
+    padding-top: 32px; ;
     padding-bottom: 10px;
     font-size: 2.3rem;
 }
@@ -108,7 +110,8 @@
     color: #fff;
     line-height: 1.6;
     text-align: center;
-    margin-top: auto;
+    align-items: center;
+    /* margin-top: auto; */
 }
 .container .chamakti-raat .write-up{
     align-items: center;
@@ -117,10 +120,13 @@
     font-size: 2rem;
     font-weight: bold;
 }
-.container .chamakti-raat  .write-up .bellow-world{
+.container .chamakti-raat .write-up .bellow-world{
     text-align: center;
     font-size: 1.3rem;
     line-height: 1.6;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 22px;
 }
 .container .gift-card-parent .gift-cards{
     width: 85%;
