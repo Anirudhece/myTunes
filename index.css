@@ -19,6 +19,7 @@
     font-family: 'PT Sans', sans-serif;
     line-height: 1.6;
     margin: 0px;
+    overflow-x: hidden;
 }
 .container .guit-bg{
     background: url('https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg') no-repeat center/cover;
@@ -58,7 +59,6 @@
 .container .music_section .f5-million{
     font-size: 1.8rem;
 }
-
 .container .music_section .stream{
     padding-bottom: 20px;
     margin-top: 0px;
@@ -66,7 +66,6 @@
     font-size: 1.3rem;
     font-weight: normal;
 }
-
 .container .music_section .button a{
     text-decoration: none;
     color: #fff;
@@ -86,15 +85,15 @@
     color: #333;
     line-height: 1.6;
     font-weight: bolder;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
-
 .container .bellow-guit .with-over{
     text-align: center;
     font-size: 1.3rem;
     color: #333;
     padding-bottom:21px ;
 }
-
 .container .bellow-guit .blue_button a{
     text-decoration: none;
     color: #fff;
@@ -112,9 +111,8 @@
     margin-top: auto;
 }
 .container .chamakti-raat .write-up{
+    align-items: center;
 }
-
-
 .container .chamakti-raat .write-up .world{
     font-size: 2rem;
     font-weight: bold;
@@ -123,5 +121,59 @@
     text-align: center;
     font-size: 1.3rem;
     line-height: 1.6;
-
+}
+.container .gift-card-parent .gift-cards{
+    width: 85%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+}
+.container .gift-card-parent .gift-cards .card #gift_id{
+    width: 100%;
+}
+.container .gift-card-parent .gift-cards .card-details{
+    color: #333;
+}
+.container .gift-card-parent .gift-cards .card-details .card1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container .gift-card-parent .gift-cards .card-details .card1det{
+    font-size: 1.2rem;
+}
+.container .gift-card-parent .gift-cards .card-details .already{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container .gift-card-parent .gift-cards .card-details .redee{
+    color: #103063;
+}
+.container .tabe-links-parent{
+    background-color: #252529;
+    padding-left: 15.8px;
+    padding-right: 15.8px;
+}
+.container .tabe-links-parent .table-links{
+    width: 80%;
+    color: #fff;;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.container .tabe-links-parent .table-links .diff-cols{
+    width: 55%;
+}
+.container .tabe-links-parent .table-links .diff-cols .sub-head{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.container .bottom{
+    background: #333;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.container .bottom .copy{
+    color: #fff;
+    font-size: 1.2rem;
 }
